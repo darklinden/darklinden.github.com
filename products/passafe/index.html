@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<script type="text/javascript" src="../../javascripts/ContentFlow/contentflow.js"></script>
+		<script type="text/javascript" src="../../javascripts/bRoundCurve 1.0.js"></script>
+		<link rel="stylesheet" href="../../stylesheets/styles.css">
+		<script tyle="text/javascript">
+			var cf = new ContentFlow('contentFlow', {reflectionColor: "#000000"});
+		</script>
+		<title>Passafe - Password generator</title>
+	</head>
+	<body>
+
+		<p><img class="icon" src="img/icon.jpg" height="100" width="100" /> <span class="icontitle">Passafe - Password generator</span></p>
+
+		<div class="maincontent">
+			<button class="itunesbtn" onclick="openitunesURL()">View in iTunes</button>
+			<p class="heading">Description</p>
+
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;No more headache for password generation, No more headache for remembering so many kinds of password. Passafe is a simple password generator and storage tool. You can use it to generate random password for many types can be set in settings.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;AES 256 encrypted storage, squared encrypted login interface, convenient and fast.</p>
+
+
+			<p class="heading">What's New in Version 1.10</p>
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;1. iOS 8 adjustment.</p>
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;2. Bug fixes.</p>
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;3. All ads has been removed.</p>
+
+		</div>
+		<!-- ===== FLOW ===== -->
+		<div id="contentFlow" class="ContentFlow">
+			<!-- should be place before flow so that contained images will be loaded first -->
+			<div class="loadIndicator"><div class="indicator"></div></div>
+
+			<div class="flow">
+
+				<div class="item">
+					<img class="content" src="img/p0.jpeg"/>
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+				<div class="item">
+					<img class="content" src="img/p1.jpeg"/>
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+				<div class="item">
+					<img class="content" src="img/p2.jpeg"/>
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+				<div class="item">
+					<img class="content" src="img/p3.jpeg"/>
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+				<div class="item">
+					<img class="content" src="img/p4.jpeg"/>
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+
+			</div>
+			<div class="globalCaption"></div>
+			<!-- div class="scrollbar">
+			<div class="slider"><div class="position"></div></div>
+			</div -->
+
+		</div>
+		<script tyle="text/javascript">
+			b_RoundCurve("icon","#ffffff","#ffffff",2);//圆角IMG图片
+			var cf = new ContentFlow('contentFlow', {reflectionColor: "#000000"});
+
+			function back() {
+				window.open("../../index.html", "").focus();
+			}
+
+			function openitunesURL() {
+				window.open("https://itunes.apple.com/app/passafe/id902885633?mt=8", "").focus();
+			}
+		</script>
+	</body>
+</html>
