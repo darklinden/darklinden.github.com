@@ -67,6 +67,15 @@ body
 	width: 80%;
 }
 
+.card
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    width: 88%;
+    border:1px solid Black;
+}
+
 .icon
 {
 	display: inline;
