@@ -12,7 +12,8 @@ body
 	font-weight:bold;
 	font-variant: normal;
 	color: Black;
-	margin-left: 10px;
+	margin-left: 20px;
+	margin-top: 20px;
 }
 
 .subtitle
@@ -61,8 +62,35 @@ body
 	margin-left: 20px;
 }
 
+.boldtext
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 18px;
+	font-weight: nomal;
+	text-align: left;
+	font-style: bold;
+	margin-left: 60px;
+	width: 80%;
+}
+
+.boldtext a
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	font-weight:normal;
+	text-align: left;
+	margin-left: 25px;
+	width: 80%;
+}
+
 .text
 {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 18px;
+	font-style: nomal;
+	font-weight:normal;
+	text-align: left;
 	margin-left: 60px;
 	width: 80%;
 }
@@ -112,4 +140,72 @@ body
 	font-variant: normal;
 	color: Black;
 	margin-left: 15px;
+}
+
+.resumetoptitle
+{
+	text-align:center;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: Black;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.resumecard
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+	padding-bottom: 10px;
+  margin-left: 5%;
+  width: 88%;
+  border:1px solid Black;
+  position: relative;
+  //background: #00ff00;
+}
+
+.resumeline
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+  height: 20px;
+  position: relative;
+  //background: #ff0000;
+}
+
+.resumetitle
+{
+	position:absolute;
+	left: 40px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+}
+
+.resumedetail
+{
+	position:absolute;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: nomal;
+	text-align: left;
+	left: 300px;
+}
+
+footer
+{
+	text-align:center;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	margin-top: 150px;
+	margin-bottom: 100px;	
 }
