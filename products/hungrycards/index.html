@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="../../javascripts/ContentFlow/contentflow.js"></script>
+		<link rel="stylesheet" href="../../stylesheets/styles.css" />
+		<script type="text/javascript">
+			var cf = new ContentFlow('contentFlow', {reflectionColor: "#ffffff"});
+
+			function openitunesURL() {
+				window.open("https://itunes.apple.com/app/hungrycards/id919010824?mt=8", "").focus();
+			}
+
+			function downloadapk() {
+				window.open("http://darklinden.github.io/products/hungrycards/HungryCards.apk", "").focus();
+			}
+
+		</script>
+		<title>HungryCards</title>
+	</head>
+	<body>
+
+		<p><img class="icon" src="img/icon.jpg" alt="Loading..." height="100" width="100" /> <span class="icontitle">HungryCards</span></p>
+
+		<div class="maincontent">
+			<button class="itunesbtn" onclick="openitunesURL()">View in iTunes</button> <button class="apkbtn" onclick="downloadapk()">Download Android APK</button>
+
+			<p class="heading">Description</p>
+
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;This is a game with number and puzzle.</p>
+
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;Card is the protagonist of the game with 4 sides of numbers.</p>
+
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;One card can "eat" another if the number on the adjoining side is stronger than the other one.</p>
+
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;After a complete "meal", the number on the special side will increase.</p>
+
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;The card will be "too full" if one of the numbers is greater than 9, in this case, the card cannot be moved.</p>
+
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;You may move one card to eat a pile of card as a combo to gain much more scores and move points.</p>
+
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;One move cost one move point, and there's no move point to use, the game is over.</p>
+
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;Thanks! Hope you enjoy the game.</p>
+
+		</div>
+		<!-- ===== FLOW ===== -->
+		<div id="contentFlow" class="ContentFlow">
+			<!-- should be place before flow so that contained images will be loaded first -->
+			<div class="loadIndicator"><div class="indicator"></div></div>
+
+			<div class="flow">
+
+				<div class="item">
+					<img class="content" src="img/p0.jpeg" alt="Loading..." />
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+				<div class="item">
+					<img class="content" src="img/p1.jpeg" alt="Loading..." />
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+				<div class="item">
+					<img class="content" src="img/p2.jpeg" alt="Loading..." />
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+				<div class="item">
+					<img class="content" src="img/p3.jpeg" alt="Loading..." />
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+				<div class="item">
+					<img class="content" src="img/p4.jpeg" alt="Loading..." />
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+			</div>
+			<div class="globalCaption"></div>
+			<!-- div class="scrollbar">
+			<div class="slider"><div class="position"></div></div>
+			</div -->
+
+		</div>
+	</body>
+</html>

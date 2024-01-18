@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="../../javascripts/ContentFlow/contentflow.js"></script>
+		<link rel="stylesheet" href="../../stylesheets/styles.css" />
+		<script type="text/javascript">
+			var cf = new ContentFlow('contentFlow', {reflectionColor: "#ffffff"});
+
+			function openitunesURL() {
+				window.open("https://itunes.apple.com/us/app/tobehero/id908879553?l=zh&ls=1&mt=8", "").focus();
+			}
+
+			function downloadapk() {
+				window.open("http://darklinden.github.io/products/tobehero/tobehero.apk", "").focus();
+			}
+		</script>
+		<title>ToBeHero</title>
+	</head>
+	<body>
+
+		<p><img class="icon" src="img/icon.jpg" alt="Loading..." height="100" width="100" /> <span class="icontitle">ToBeHero</span></p>
+
+		<div class="maincontent">
+			<button class="itunesbtn" onclick="openitunesURL()">View in iTunes</button> <button class="apkbtn" onclick="downloadapk()">Download Android APK</button>
+			<p class="heading">Description</p>
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;- Duel with the Monster on the ice ground.</p>
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;- You can never beat the Monster at frontal attack. Play some tricks to attack from its back.</p>
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;- Now you have 6 points of life, or that, the game will be over if you've been hit 6 times.</p>
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;- Hit the Monster to score points.</p>
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;- Change control settings in the pause page, you can select the Accelerometer or the virtual Joystick.</p>
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;- Other else.</p>
+
+		</div>
+		<!-- ===== FLOW ===== -->
+		<div id="contentFlow" class="ContentFlow">
+			<!-- should be place before flow so that contained images will be loaded first -->
+			<div class="loadIndicator"><div class="indicator"></div></div>
+
+			<div class="flow">
+
+				<div class="item">
+					<img class="content" src="img/p0.jpeg" alt="Loading..." />
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+				<div class="item">
+					<img class="content" src="img/p1.jpeg" alt="Loading..." />
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+				<div class="item">
+					<img class="content" src="img/p2.jpeg" alt="Loading..." />
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+				<div class="item">
+					<img class="content" src="img/p3.jpeg" alt="Loading..." />
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+				<div class="item">
+					<img class="content" src="img/p0.jpeg" alt="Loading..." />
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+			</div>
+			<div class="globalCaption"></div>
+			<!-- div class="scrollbar">
+			<div class="slider"><div class="position"></div></div>
+			</div -->
+
+		</div>
+	</body>
+</html>

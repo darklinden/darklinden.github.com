@@ -1,0 +1,250 @@
+body
+{
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FkZDllNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjclIiBzdG9wLWNvbG9yPSIjYWRkOWU0IiBzdG9wLW9wYWNpdHk9IjAuOTciLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y3ZmJmYyIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==) no-repeat 0 0;
+background: -moz-linear-gradient(top,  rgba(173,217,228,1) 0%, rgba(173,217,228,0.97) 7%, rgba(247,251,252,0.5) 100%) no-repeat 0 0; /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(173,217,228,1)), color-stop(7%,rgba(173,217,228,0.97)), color-stop(100%,rgba(247,251,252,0.5))) no-repeat 0 0; /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(173,217,228,1) 0%,rgba(173,217,228,0.97) 7%,rgba(247,251,252,0.5) 100%) no-repeat 0 0; /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(173,217,228,1) 0%,rgba(173,217,228,0.97) 7%,rgba(247,251,252,0.5) 100%) no-repeat 0 0; /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(173,217,228,1) 0%,rgba(173,217,228,0.97) 7%,rgba(247,251,252,0.5) 100%) no-repeat 0 0; /* IE10+ */
+background: linear-gradient(to bottom,  rgba(173,217,228,1) 0%,rgba(173,217,228,0.97) 7%,rgba(247,251,252,0.5) 100%) no-repeat 0 0; /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#add9e4', endColorstr='#80f7fbfc',GradientType=0 ) no-repeat 0 0; /* IE6-8 */
+
+}
+
+.title
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: Black;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.subtitle
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	font-weight:normal;
+	text-align: left;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+.view
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	font-weight:normal;
+	text-align: left;
+	margin-top: 0px;
+	margin-left: 20px;
+}
+
+.heading
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.detail
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	font-weight:normal;
+	text-align: left;
+	margin-top: 0px;
+	color: #0000ff;
+	text-decoration: underline;
+	margin-left: 20px;
+}
+
+.boldtext
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 18px;
+	font-weight: nomal;
+	text-align: left;
+	font-style: bold;
+	margin-left: 60px;
+	width: 80%;
+}
+
+.boldtext a
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	font-weight:normal;
+	text-align: left;
+	margin-left: 25px;
+	width: 80%;
+}
+
+.text
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 18px;
+	font-style: nomal;
+	font-weight:normal;
+	text-align: left;
+	margin-left: 60px;
+	width: 80%;
+}
+
+.card
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    width: 88%;
+    border:1px solid Black;
+}
+
+.backbtn
+{
+    font-family: Arial,Helvetica,sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    width: 88%;
+}
+
+.icon
+{
+	display: inline;
+	vertical-align: bottom;
+	border-radius: 20px;
+	margin-left: 15px;
+	-webkit-border-radius: 20px;
+}
+
+.itunesbtn
+{
+	width: 180px;
+	height: 40px;
+	background: #298cda;
+	font-size: 15px;
+	color: #ffffff;
+	font-style: bold;
+	font-weight:normal;
+	text-align: center;
+
+	margin-left: 20px;
+	margin-top: 10px;
+
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+.apkbtn
+{
+	width: 180px;
+	height: 40px;
+	background: #e68700;
+	font-size: 15px;
+	color: #ffffff;
+	font-style: bold;
+	font-weight:normal;
+	text-align: center;
+
+	margin-left: 20px;
+	margin-top: 10px;
+
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+.icontitle
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: Black;
+	margin-left: 15px;
+}
+
+.resumetoptitle
+{
+	text-align:center;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: Black;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.resumecard
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+	padding-bottom: 10px;
+  margin-left: 5%;
+  width: 88%;
+  border:1px solid Black;
+  position: relative;
+  //background: #00ff00;
+}
+
+.resumeline
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+  height: 20px;
+  position: relative;
+  //background: #ff0000;
+}
+
+.resumetitle
+{
+	position:absolute;
+	left: 40px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+}
+
+.resumedetail
+{
+	position:absolute;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: nomal;
+	text-align: left;
+	left: 300px;
+}
+
+footer
+{
+	text-align:center;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	margin-top: 150px;
+	margin-bottom: 100px;	
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="../../javascripts/ContentFlow/contentflow.js"></script>
+		<link rel="stylesheet" href="../../stylesheets/styles.css" />
+		<script type="text/javascript">
+			var cf = new ContentFlow('contentFlow', {reflectionColor: "#ffffff"});
+
+			function openitunesURL() {
+				window.open("https://itunes.apple.com/app/passafe/id902885633?mt=8", "").focus();
+			}
+		</script>
+		<title>Passafe - Password generator</title>
+	</head>
+	<body>
+
+		<p><img class="icon" src="img/icon.jpg" alt="Loading..." height="100" width="100" /> <span class="icontitle">Passafe - Password generator</span></p>
+
+		<div class="maincontent">
+			<button class="itunesbtn" onclick="openitunesURL()">View in iTunes</button>
+			<p class="heading">Description</p>
+
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;No more headache for password generation, No more headache for remembering so many kinds of password. Passafe is a simple password generator and storage tool. You can use it to generate random password for many types can be set in settings.</p>
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;AES 256 encrypted storage, squared encrypted login interface, convenient and fast.</p>
+
+
+			<p class="heading">What's New in Version 1.10</p>
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;1. iOS 8 adjustment.</p>
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;2. Bug fixes.</p>
+			<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;3. All ads has been removed.</p>
+
+		</div>
+		<!-- ===== FLOW ===== -->
+		<div id="contentFlow" class="ContentFlow">
+			<!-- should be place before flow so that contained images will be loaded first -->
+			<div class="loadIndicator"><div class="indicator"></div></div>
+
+			<div class="flow">
+
+				<div class="item">
+					<img class="content" src="img/p0.jpeg" alt="Loading..." />
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+				<div class="item">
+					<img class="content" src="img/p1.jpeg" alt="Loading..." />
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+				<div class="item">
+					<img class="content" src="img/p2.jpeg" alt="Loading..." />
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+				<div class="item">
+					<img class="content" src="img/p3.jpeg" alt="Loading..." />
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+				<div class="item">
+					<img class="content" src="img/p4.jpeg" alt="Loading..." />
+					<!-- div class="caption">pic0: some stripes</div -->
+				</div>
+
+			</div>
+			<div class="globalCaption"></div>
+			<!-- div class="scrollbar">
+			<div class="slider"><div class="position"></div></div>
+			</div -->
+
+		</div>
+	</body>
+</html>
